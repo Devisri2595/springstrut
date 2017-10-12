@@ -4,50 +4,7 @@
   <artifactId>SpringStrutHibernate</artifactId>
   <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-   <build>
-    <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-war-plugin</artifactId>
-        <configuration>
-          <webResources>
-            <resource>
-              <directory>${build.sourceDirectory}</directory>
-              <targetPath>sources</targetPath>
-            </resource>
-          </webResources>
-        </configuration>
-      </plugin>
-    </plugins>
-  </build>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <properties>
+    <properties>
     <java-version>1.8</java-version>
     <org.springframework-version>4.1.4.RELEASE</org.springframework-version>
     <org.strutsframework-version>2.3.20</org.strutsframework-version>
